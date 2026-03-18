@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_03_16_123519) do
+ActiveRecord::Schema[8.0].define(version: 2026_03_18_122222) do
   create_table "bookers", force: :cascade do |t|
     t.string "title"
     t.string "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "books", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "title"
+    t.string "body"
+  end
+
+  create_table "your_table_names", force: :cascade do |t|
+    t.string "your_columns_here"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

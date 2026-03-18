@@ -1,9 +1,20 @@
 Rails.application.routes.draw do
+  get "lists/new"
+  get "lists/index"
+  get "lists/edit"
+  get 'lists', to: 'lists#show'
   get "bookers/new"
   get "bookers/index"
   get "bookers/show"
   get "bookers/edit"
-  get '/bookers' => 'bookers#new'
+  get '/bookers' => 'lists#show'
+  get '/bookers/books' => 'books#index'
+  get "books/new"
+  get "books/index"
+  get "books/show"
+  get "books/edit"
+  post 'books' => 'books#create'
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

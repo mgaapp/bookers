@@ -8,3 +8,47 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ .main-title{
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 33px 4px 33px 33px; /* 上右下左 */
+  display: inline-block;
+}
+
+
+.subtitle{
+   font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.1;
+  margin: 33px 33px 18px 66px; /* 上右下左 */
+}
+
+.sub-subtitle{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 18px;
+    margin-block-end: 33px;
+    margin-bottom: 33px;
+    margin-block-start: 33px;
+    margin-bottom: 33px;
+    margin-inline-end: 33px;
+    margin-inline-start: 33px;
+    margin-left: 66px;
+    margin-top: 33px;
+}
+
+.link-start a{
+    font-size: 13px;
+    height: auto;
+    line-height: 18px;
+   margin-left: 66px;
+   color: rgb(0,0,0);
+}
+
+.link-start a:hover {
+  background-color: black;
+  color: white;
+}

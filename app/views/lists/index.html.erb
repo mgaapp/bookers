@@ -2,14 +2,16 @@
 <!-- form_with部分 -->
 <%= form_with model: Booker.new do |f| %>
 
+    <p>タイトル</p>
   <h2>Bookers では、さまざまな書籍に関するあなたの意見や</h2>
   <h3>印象を共有し交換することができます</h3>
 
   <h4>start</h4>
-  <p><%=@list.body %></p>
-  <%= link_to "start", edit_list_path(@list.id) %>
+  <span>
+    <%= link_to list.title, "/lists/#" %>
+  </span>
 
 <% end %>
 
-<h1>Bookers#new</h1>
-<p>Find me in app/views/bookers/new.html.erb</p>
+<h1>Lists#index</h1>
+<p>Find me in app/views/lists/index.html.erb</p>

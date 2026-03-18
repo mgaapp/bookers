@@ -1,0 +1,14 @@
+<head></head>
+
+<h1 class="main-title">
+ようこそ <strong>Bookers</strong> へ!</h1>
+<%= form_with model: Booker.new do |f| %>
+
+  <h2 class="subtitle">Bookers では、さまざまな書籍に関するあなたの意見や</h2>
+  <h3 class="sub-subtitle">印象を共有し交換することができます</h3>
+
+  <span class="link-start">
+    <%= link_to "start", "/bookers/books" %>
+  </span>
+
+<% end %>
