@@ -1,19 +1,6 @@
 Rails.application.routes.draw do
-  get "lists/new"
-  get "lists/index"
-  get "lists/edit"
-  get 'lists', to: 'lists#show'
-  get "bookers/new"
-  get "bookers/index"
-  get "bookers/show"
-  get "bookers/edit"
-  get '/bookers' => 'lists#show'
-  get '/bookers/books' => 'books#index'
-  get "books/new"
-  get "books/index"
-  get "books/show"
-  get "books/edit"
-  post 'books' => 'books#create'
+  root to: 'homes#top'  
+  resources :books
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

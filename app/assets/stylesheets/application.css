@@ -23,7 +23,7 @@
    font-size: 13px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.1;
-  margin: 33px 33px 18px 66px; /* 上右下左 */
+  margin: 0 33px 18px 66px; /* 上右下左 */
 }
 
 .sub-subtitle{
@@ -37,7 +37,6 @@
     margin-inline-end: 33px;
     margin-inline-start: 33px;
     margin-left: 66px;
-    margin-top: 33px;
 }
 
 .link-start a{
