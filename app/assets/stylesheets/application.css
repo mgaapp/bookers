@@ -39,6 +39,11 @@
     margin-left: 66px;
 }
 
+.taitle2{
+  font-size: 13px;
+  margin: 15px 15px 15px 66px;
+}
+
 .link-start a{
     font-size: 13px;
     height: auto;
@@ -47,7 +52,41 @@
    color: rgb(0,0,0);
 }
 
+
 .link-start a:hover {
   background-color: black;
   color: white;
+}
+
+.link-start2 a{
+    font-size: 13px;
+    height: auto;
+    line-height: 18px;
+   margin-left: 20px;
+   color: rgb(0,0,0);
+}
+
+.link-start2 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.link-start3 a{
+    font-size: 13px;
+    height: auto;
+    line-height: 18px;
+   margin-left: 5px;
+   color: rgb(0,0,0);
+}
+
+.link-start3 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.error_explanation {
+  border: 1px solid red;      /* 赤い線で囲む */
+  padding: 15px;              /* 内側の余白 */
+  margin-bottom: 20px;        /* 下との間隔 */
+  color: red;                 /* 文字色を赤に */
 }
